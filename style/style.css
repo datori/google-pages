@@ -11,50 +11,55 @@ body{
 	right: 50px;
 	top: -18px;
 	color: rgb(100,100,100);
+	font-size: medium;
 	font-weight: 200;
-	word-spacing: 10px;
+	word-spacing: 15px;
 }
 
 img{
 	display: block;
 	margin: 10px auto;
 }
-/*h1 span{
-	margin-left: -5px;
-	margin-right: -5px;
-	margin-top: 50px;
-	font-size: 250%;
-	text-align: center;
-}
-
-#letter_g{color: rgb(66,133,244);}
-#letter_o{color: rgb(234,67,53);}
-#letter_o_2{color: rgb(251,188,5);}
-#letter_g_2{color: rgb(66,133,244);}
-#letter_l{color: rgb(52,168,83);}
-#letter_e{color: rgb(234,67,53);}*/
 
 #search{
-	height: 35px;
+	height: 42px;
 	width: 30%;
+	margin: auto;
 	color: black;
 	border: 1px solid rgb(220,220,220);
 	border-radius: 1px;
 	box-shadow: 0px 1px rgb(230,230,230);
+
 }
 
 #seach:focus,#search:hover{
 	box-shadow: 3px 3px 5px rgb(230,230,230);
 }
 
+#search input{
+	position: relative;
+	height: 75%;
+	width: 90%;
+	right: 8px;
+	bottom: 18px;
+	border: none;
+	outline: none;
+}
+
+#search img{
+	position: relative;
+	display: inline;
+	height: 24px;
+	width: 24px;
+}
 
 button{
 	height: 35px;
 	width: 7%;
-	margin: 25px 0;
+	margin: 29px 4px;
 	color: #757575;
 	font-size: 80%;
-	font-weight: 500;
+	font-weight: 700;
 	border: 1px #f2f2f2 solid;
 	border-radius: 2px;
 	background-color: #f2f2f2;
@@ -69,5 +74,5 @@ button:hover{
 
 p{
 	margin: 2%;
-	font-size: 80%;
+	font-size: small;
 }
